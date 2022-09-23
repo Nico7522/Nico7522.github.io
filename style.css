@@ -1,0 +1,257 @@
+body {
+    background: linear-gradient(45deg, rgb(59,50,50), rgb(22,28,29)) no-repeat fixed center;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color:  #1b7071
+}
+
+#modedelecture {
+  font-size: 1rem;
+  padding: 15px;
+  background-color: #1b7071;
+  font-family: cursive;
+  color: black;
+  margin-top: -25px;
+}
+#modedelecture:hover {
+  box-shadow: black 2px 5px;
+}
+
+
+
+.dropbtn {
+    background-color: #1b7071;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: cursive;
+  }
+  
+  .dropdown {
+    position: absolute;
+ 
+    display: inline-block;
+    margin-top: -100px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: cursive;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #1b7071;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #1b7071
+  }
+
+  
+
+
+
+.image {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image img {
+  box-shadow: 5px 10px;
+}
+
+img {
+    margin: 0 auto;
+    text-align: center; 
+}
+
+div img {
+    margin: 0 auto;
+    text-align: center; 
+    width: 50%;
+    opacity: 1;
+}
+
+.passage {
+  width: 10%;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  position: fixed;
+  top: 45%;
+  /* right: -50px; */
+  right: 0px;
+}
+.passage img:hover {
+  width: 60%;
+}
+
+p {
+  color:  white;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.precedant {
+  width: 10%;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  position: fixed;
+  top: 45%;
+  left: 0px;
+}
+
+.precedant img:hover {
+  width: 60%;
+}
+
+.anim {
+  animation-duration: 1s; 
+  transition: ease-in-out; 
+  animation-name: slidein; 
+  
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translateX(5%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* @keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 50%;
+  }
+  to {
+    margin-left: 0%;
+    width: 50%;
+  }
+}
+*/
+
+@media only screen and (max-width: 504px) {
+  .dropdown {
+    margin-top: -35px;
+  }
+  #modedelecture {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -35px;
+  }
+  div img {
+    margin-top: 50px;
+    /* text-align: center;  */
+    width: 70%;
+    opacity: 1;
+  }
+
+  #fleche {
+    right: 0px;
+    width: 100%;
+  }
+  #fleche2 {
+    left: 0px;
+    width: 100%;
+  }
+
+  .precedant img:hover {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .dropdown {
+    margin-top: -35px;
+  }
+  #modedelecture {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -35px;
+  }
+  div img {
+    margin-top: 50px;
+    text-align: center; 
+    width: 70%;
+    opacity: 1;
+  }
+
+  #fleche {
+    right: 0px;
+    width: 100%;
+  }
+  #fleche2 {
+    left: 0px;
+    width: 100%;
+  }
+
+  .precedant img:hover {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .dropdown {
+    margin-top: -35px;
+  }
+  #modedelecture {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -35px;
+  }
+  div img {
+    margin-top: 50px;
+    text-align: center; 
+    width: 70%;
+    opacity: 1;
+  }
+
+  #fleche {
+    right: 0px;
+    width: 100%;
+  }
+  #fleche2 {
+    left: 0px;
+    width: 100%;
+  }
+
+  .precedant img:hover {
+    width: 10%;
+  }
+}
