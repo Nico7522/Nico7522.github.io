@@ -21,7 +21,7 @@ let modeLecture = document.querySelector('#modedelecture');
 let imageDeBase = document.querySelector('#depart');
 let chapselect = document.querySelector('.dropdown-content')
 let chapitre = document.title;
-chapitre.toLowerCase();
+chapitre = chapitre.toLowerCase();
 
 let verticale = false;
 
